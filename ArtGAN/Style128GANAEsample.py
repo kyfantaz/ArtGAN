@@ -8,8 +8,8 @@ from nn.activations import lrelu
 from utils.utils import drawblock, createfolders
 
 
-# Create folders to store images
-gen_dir, gen_dir128 = createfolders("genimgs/Style128GANAEsample/", "gen/", "gen128/")
+# Create folder and its subfolders to store images
+_, gen_dir, gen_dir128 = createfolders("genimgs", "Style128GANAEsample/", "gen/", "gen128/")
 
 # Parameters
 batch_size = 100
