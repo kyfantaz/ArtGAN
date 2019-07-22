@@ -9,7 +9,7 @@ from utils.utils import drawblock, createfolders
 
 
 # Create folders to store images
-gen_dir, gen_dir128 = createfolders("./genimgs/Style128GANAEsample", "/gen", "/gen128")
+gen_dir, gen_dir128 = createfolders("genimgs/Style128GANAEsample/", "gen/", "gen128/")
 
 # Parameters
 batch_size = 100
@@ -81,7 +81,7 @@ config.gpu_options.allow_growth = True
 with tf.Session(config=config) as sess:
     sess.run(init)
     saver = tf.train.Saver(max_to_keep=None)
-    saver.restore(sess=sess, save_path='./models/Style128GANAE/cdgan49999.ckpt')
+    saver.restore(sess=sess, save_path='models/Style128GANAE/cdgan49999.ckpt')
 
     # run generator
     gen_img, gen_img128 = sess.run([samples, samples128])
