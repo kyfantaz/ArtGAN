@@ -1,10 +1,11 @@
-import tensorflow as tf
-from layers import conv2d, linear, nnupsampling, batchnorm, pool
-from activations import lrelu
-import numpy as np
-from utils import drawblock, createfolders
-from scipy.misc import imsave
 import os
+import tensorflow as tf
+from imageio import imsave
+import numpy as np
+
+from nn.layers import conv2d, linear, nnupsampling, batchnorm, pool
+from nn.activations import lrelu
+from utils.utils import drawblock, createfolders
 
 
 # Create folders to store images
