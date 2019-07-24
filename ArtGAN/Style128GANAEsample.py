@@ -9,7 +9,7 @@ from utils.utils import drawblock, createfolders
 
 
 # Create folder and its subfolders to store images
-_, gen_dir, gen_dir128 = createfolders("genimgs", "Style128GANAEsample/", "gen/", "gen128/")
+_, gen_dir, gen_dir128 = createfolders("genimgs", "Style128GANAEsample/", "Style128GANAEsample/gen/", "Style128GANAEsample/gen128/")
 
 # Parameters
 batch_size = 100
