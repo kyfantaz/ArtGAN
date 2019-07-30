@@ -3,6 +3,11 @@ This is a July 2019 attempt to run the original [ArtGAN](https://github.com/cs-c
 
 Origial paper: https://arxiv.org/abs/1702.03410
 
+# Sample
+
+![sample_image](ArtGAN/genimgs/Style128GANAEsample/style_sample_128x128.png)
+
+
 # Setup
 - Install `python 2.7`
 - Install compatible versions of tensorflow-gpu and CUDA. We used CUDA 10.1 and cuDNN 7.5, which are the version requirements for tensorflow==1.14+.
