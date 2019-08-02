@@ -1,6 +1,9 @@
 # ArtGAN
-This is a July 2019 attempt to run the original [ArtGAN](https://github.com/cs-chan/ArtGAN) implementation using up-to-date libraries (tensorflow==1.14, scipy==1.2.2)
-
+This is a July 2019 attempt to run the original [ArtGAN](https://github.com/cs-chan/ArtGAN) implementation using (then) up-to-date libraries 
+```
+tensorflow-gpu==1.1.0
+scipy==1.2.2
+```
 Origial paper: https://arxiv.org/abs/1702.03410
 
 # Sample
